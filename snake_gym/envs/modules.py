@@ -44,7 +44,11 @@ class Snake(object):
     def move(self):
         cur = self.positions[0]
         x, y = self.direction
-        new = (((cur[0] + (x * GRIDSIZE)) % SCREEN_WIDTH), (cur[1] + (y * GRIDSIZE)) % SCREEN_HEIGHT)
+        
+        # REMOVE THE % WRAPPING - let it go out of bounds
+        new = (cur[0] + (x * GRIDSIZE), cur[1] + (y * GRIDSIZE))
+        
+        # Check self-collision
         if len(self.positions) > 2 and new in self.positions[2:]:
             self.lose()
             raise SnakeException
