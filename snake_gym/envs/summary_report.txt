@@ -1,0 +1,76 @@
+================================================================================
+COMPREHENSIVE BENCHMARKING REPORT: Q-Learning
+================================================================================
+
+1. SAMPLE EFFICIENCY ANALYSIS
+--------------------------------------------------------------------------------
+  Seed 123:
+    - Final Avg Score (last 100): 1.12
+    - Best Score: 21
+    - Episodes to 80% max: 1
+  Seed 42:
+    - Final Avg Score (last 100): 0.46
+    - Best Score: 13
+    - Episodes to 80% max: 1
+  Seed 456:
+    - Final Avg Score (last 100): 0.68
+    - Best Score: 18
+    - Episodes to 80% max: 55
+  Aggregate Statistics:
+    - Mean final score: 0.75 ± 0.27
+    - Mean best score: 17.33 ± 3.30
+
+2. EXPLORATION & STABILITY ANALYSIS
+--------------------------------------------------------------------------------
+  Seed 123:
+    - Average reward variance: 2437.00
+    - Final epsilon: 0.0100
+  Seed 42:
+    - Average reward variance: 1983.98
+    - Final epsilon: 0.0100
+  Seed 456:
+    - Average reward variance: 2201.71
+    - Final epsilon: 0.0100
+
+3. COMPUTATIONAL EFFICIENCY
+--------------------------------------------------------------------------------
+  Training Duration:
+    - Mean: 0.00 minutes
+    - Std: 0.00 minutes
+  Episode Duration:
+    - Mean: 0.00 ms/episode
+    - Std: 0.00 ms/episode
+  Resource Usage:
+    - Mean CPU usage: 26.2%
+    - Mean Memory usage: 84.7%
+
+4. CONVERGENCE & STABILITY
+--------------------------------------------------------------------------------
+  Cross-seed variability:
+    - Coefficient of Variation (CV): 36.42%
+    - Interpretation: VARIABLE (CV ≥ 20%)
+
+5. POLICY BEHAVIOR EVOLUTION
+--------------------------------------------------------------------------------
+  Seed 123:
+    - Early score (first 500): 1.49
+    - Late score (last 500): 1.01
+    - Improvement: -32.1%
+    - Early survival: 36.1 steps
+    - Late survival: 63.1 steps
+  Seed 42:
+    - Early score (first 500): 1.36
+    - Late score (last 500): 0.91
+    - Improvement: -32.7%
+    - Early survival: 35.4 steps
+    - Late survival: 61.0 steps
+  Seed 456:
+    - Early score (first 500): 1.35
+    - Late score (last 500): 0.93
+    - Improvement: -30.9%
+    - Early survival: 36.6 steps
+    - Late survival: 61.1 steps
+
+================================================================================
+END OF REPORT
+================================================================================
