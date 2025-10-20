@@ -3,27 +3,8 @@ DQN METRICS SUMMARY REPORT
 ================================================================================
 
 Seed: 123
-Final Moving Avg Reward: 37.67
-Final Moving Avg Score: 0.37
+Final Moving Avg Reward: 46.64
+Final Moving Avg Score: 0.25
 Episodes to 50% Max: 1
 Episodes to 80% Max: 1
 Episodes to 90% Max: 1
-----------------------------------------
-Seed: 42
-Final Moving Avg Reward: 39.92
-Final Moving Avg Score: 0.76
-Episodes to 50% Max: 65
-Episodes to 80% Max: 73
-Episodes to 90% Max: 83
-----------------------------------------
-Seed: 456
-Final Moving Avg Reward: 40.91
-Final Moving Avg Score: 0.66
-Episodes to 50% Max: 35
-Episodes to 80% Max: 79
-Episodes to 90% Max: 85
-----------------------------------------
-
-Overall Mean & Std Dev Across Seeds:
-Mean Final Reward: 39.50 ± 1.36
-Mean Final Score: 0.60 ± 0.17
